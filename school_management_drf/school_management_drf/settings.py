@@ -41,7 +41,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'accounts',
     'students',
-    'courses'
+    'courses',
+    'grades',
+    'teachers'
 ]
 
 MEDIA_URL = '/media/'

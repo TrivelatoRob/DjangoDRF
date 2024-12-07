@@ -3,7 +3,5 @@ from .models import Course
 
 @admin.register(Course)
 class CourseAdmin(admin.ModelAdmin):
-    list_display = ('name', 'description', 'teacher')
-    search_fields = ('name', 'description', 'teacher')
-
-# Register your models here.
+    list_display = ('name', 'code', 'created_at')
+    search_fields = ('name', 'code')
